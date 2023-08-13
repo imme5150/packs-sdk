@@ -103,7 +103,7 @@ Testing a sync is very similar to testing a regular formula. However, you want t
 import {MockSyncExecutionContext} from '@codahq/packs-sdk/dist/development';
 import {assert} from "chai";
 import {describe} from "mocha";
-import {executeFormulaFromPackDef} from "@codahq/packs-sdk/dist/development";
+import {`executeSyncFormulaFromPackDef`} from "@codahq/packs-sdk/dist/development";
 import {it} from "mocha";
 import {pack} from "../pack";
 import {newJsonFetchResponse} from '@codahq/packs-sdk/dist/development';
